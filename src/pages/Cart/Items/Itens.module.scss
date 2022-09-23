@@ -1,0 +1,18 @@
+.card {
+  margin: 0px 0px 20px 0px;
+  width: 700px;
+  justify-content: space-between;
+  height: 140px;
+}
+.card__img {
+  display: flex;
+}
+.img {
+  width: 150px;
+  height: 140px;
+}
+.card__quantity {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}

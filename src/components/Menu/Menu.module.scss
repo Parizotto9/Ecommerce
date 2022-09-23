@@ -1,0 +1,26 @@
+.menu {
+  background-color: #b8f2e6;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.menu__list {
+  margin: 0;
+  display: flex;
+  justify-content: end;
+  margin-right: 40px;
+}
+
+.menu__link {
+  list-style: none;
+  margin-left: 20px;
+  color: #5e6472;
+  font-size: 20px;
+  font-weight: 600;
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ffa69e;
+  }
+}
