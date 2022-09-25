@@ -2,13 +2,24 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import Router from "./routes";
-import { ChakraProvider } from "@chakra-ui/react";
+import { ChakraProvider, extendTheme } from "@chakra-ui/react";
+
+const theme = extendTheme({
+  colors: {
+    brand: {
+      500: "#FFA69E",
+    },
+    secondary: {
+      500: "#5E6472",
+    },
+  },
+});
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
-  <ChakraProvider>
+  <ChakraProvider theme={theme}>
     {/* <React.StrictMode> */}
     <Router />
     {/* </React.StrictMode> */}
