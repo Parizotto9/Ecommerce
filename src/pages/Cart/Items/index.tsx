@@ -28,10 +28,10 @@ export default function Itens({ product, getValues, setTotal }: Props) {
   // let [quantity, setQuantity] = useState(1);
   const [totalPrice, setTotalPrice] = useState(price);
 
-  const [setTot, total] = setTotal;
-  useEffect(() => {
-    setTot(total + price);
-  }, []);
+  // const [setTot, total] = setTotal;
+  // useEffect(() => {
+  //   setTot(total + price);
+  // }, []);
 
   const value = 20.0;
   return (
